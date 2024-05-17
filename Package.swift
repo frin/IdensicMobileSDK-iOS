@@ -41,8 +41,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/krzyzanowskim/OpenSSL",
-            "1.0.0" ..< "2.0.0"
+            url: "https://github.com/krzyzanowskim/OpenSSL", from: "3.1.5004"
         ),
         .package(
             url: "https://github.com/twilio/twilio-video-ios",
